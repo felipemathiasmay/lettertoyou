@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=DotGothic16");
+@import url("https://fonts.googleapis.com/css?family=Amatic SC");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    background: -webkit-linear-gradient(to left, #F8C8DC , #f5bfd5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F8C8DC , #f5bfd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+
+.header_text {
+    font-family: 'Amatic SC';
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #EEE;
+    padding-top: 30px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 70px;
+  -webkit-animation: bounce .4s ease infinite alternate;
+  }
+  
+  @-webkit-keyframes bounce {
+    0% {
+        text-shadow:
+                    0 5px 0 #ccc,
+                    0 2px 3px #ffacbd;  
+    }
+    100% {
+      transform:translateY(-20px);
+      text-shadow:  0 50px 0 #ffacbd,
+                    0 0px 20px rgba(0, 0, 0, .8);
+    }
+  }
